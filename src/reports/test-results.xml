@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="41" failures="0" time="5.059">
+  <testsuite name="prepare-copy-index-html.js" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.522" tests="2">
+    <testcase classname="prepare-copy-index-html.js should create brand specific index.${brandName}.html" name="prepare-copy-index-html.js should create brand specific index.${brandName}.html" time="0.063">
+    </testcase>
+    <testcase classname="prepare-copy-index-html.js should exit correctly without writing to file, when no brands where passed as arg" name="prepare-copy-index-html.js should exit correctly without writing to file, when no brands where passed as arg" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="prepareDistPkgJson.js" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.531" tests="2">
+    <testcase classname="prepareDistPkgJson.js should prepare dist package.json paths should have no &apos;dist/&apos; prefixes and devDependencies should be empty" name="prepareDistPkgJson.js should prepare dist package.json paths should have no &apos;dist/&apos; prefixes and devDependencies should be empty" time="0.007">
+    </testcase>
+    <testcase classname="prepareDistPkgJson.js should prepare dist package.json should have correct package.json structure, when main and typings properties are not defined" name="prepareDistPkgJson.js should prepare dist package.json should have correct package.json structure, when main and typings properties are not defined" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="HashFilenamesPlugin" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.618" tests="5">
+    <testcase classname="HashFilenamesPlugin should add hash to filename and create hash map file (for string asset)" name="HashFilenamesPlugin should add hash to filename and create hash map file (for string asset)" time="0.003">
+    </testcase>
+    <testcase classname="HashFilenamesPlugin should add hash to filename and create hash map file (for regex asset)" name="HashFilenamesPlugin should add hash to filename and create hash map file (for regex asset)" time="0.001">
+    </testcase>
+    <testcase classname="HashFilenamesPlugin should add compilation warning (no such file)" name="HashFilenamesPlugin should add compilation warning (no such file)" time="0.001">
+    </testcase>
+    <testcase classname="HashFilenamesPlugin should add compilation warning (files with the same name)" name="HashFilenamesPlugin should add compilation warning (files with the same name)" time="0">
+    </testcase>
+    <testcase classname="HashFilenamesPlugin should add compilation warning (regex pattern)" name="HashFilenamesPlugin should add compilation warning (regex pattern)" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="createConfig.js" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.634" tests="4">
+    <testcase classname="createConfig.js config should have TS files rule" name="createConfig.js config should have TS files rule" time="0.002">
+    </testcase>
+    <testcase classname="createConfig.js config rule should produce valid Lint command for TS files" name="createConfig.js config rule should produce valid Lint command for TS files" time="0.008">
+    </testcase>
+    <testcase classname="createConfig.js config should ignore excluded directory" name="createConfig.js config should ignore excluded directory" time="0.003">
+    </testcase>
+    <testcase classname="createConfig.js default config should generate lint rule" name="createConfig.js default config should generate lint rule" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="colorLog - function to paint console output" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.591" tests="7">
+    <testcase classname="colorLog - function to paint console output should log message using console.log" name="colorLog - function to paint console output should log message using console.log" time="0.003">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log message using console.error if logLevel is error" name="colorLog - function to paint console output should log message using console.error if logLevel is error" time="0.001">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log message using console.warn if logLevel is warning" name="colorLog - function to paint console output should log message using console.warn if logLevel is warning" time="0">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log error message with red color" name="colorLog - function to paint console output should log error message with red color" time="0.001">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log warning message with yellow color" name="colorLog - function to paint console output should log warning message with yellow color" time="0.001">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log success message with green color" name="colorLog - function to paint console output should log success message with green color" time="0">
+    </testcase>
+    <testcase classname="colorLog - function to paint console output should log info message with blue color" name="colorLog - function to paint console output should log info message with blue color" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="I18nBundlePlugin" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.697" tests="10">
+    <testcase classname="I18nBundlePlugin merging assets final list should not have packages" name="I18nBundlePlugin merging assets final list should not have packages" time="0.01">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets all packages must be merged" name="I18nBundlePlugin merging assets all packages must be merged" time="0.002">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets without merging default language zh must be without en" name="I18nBundlePlugin merging assets without merging default language zh must be without en" time="0.003">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets with merging default language result for base must contains en" name="I18nBundlePlugin merging assets with merging default language result for base must contains en" time="0.002">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets with merging default language result for brand must contains en" name="I18nBundlePlugin merging assets with merging default language result for brand must contains en" time="0.002">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets with merging default language warning about missed strings should be showed" name="I18nBundlePlugin merging assets with merging default language warning about missed strings should be showed" time="0.004">
+    </testcase>
+    <testcase classname="I18nBundlePlugin merging assets with merging default language without warnings" name="I18nBundlePlugin merging assets with merging default language without warnings" time="0.002">
+    </testcase>
+    <testcase classname="I18nBundlePlugin should remove json5 asset" name="I18nBundlePlugin should remove json5 asset" time="0.002">
+    </testcase>
+    <testcase classname="I18nBundlePlugin should not fail and add compilation error" name="I18nBundlePlugin should not fail and add compilation error" time="0">
+    </testcase>
+    <testcase classname="I18nBundlePlugin should not fail if no brands translation found" name="I18nBundlePlugin should not fail if no brands translation found" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="useWithNgLint.js" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.679" tests="2">
+    <testcase classname="useWithNgLint.js ng lint command passed as string param ngLint decorator should generate a valid command, when single path is passed" name="useWithNgLint.js ng lint command passed as string param ngLint decorator should generate a valid command, when single path is passed" time="0.003">
+    </testcase>
+    <testcase classname="useWithNgLint.js ng lint command passed as function param ngLint decorator should generate a valid command, when an array of file paths is passed" name="useWithNgLint.js ng lint command passed as function param ngLint decorator should generate a valid command, when an array of file paths is passed" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="runLernaProcess - get apps name and run lerna with scope of this apps name" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.565" tests="1">
+    <testcase classname="runLernaProcess - get apps name and run lerna with scope of this apps name should construct scope arguments from apps name list" name="runLernaProcess - get apps name and run lerna with scope of this apps name should construct scope arguments from apps name list" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="1.524" tests="6">
+    <testcase classname="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should get full list of apps/packages" name="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should get full list of apps/packages" time="0.004">
+    </testcase>
+    <testcase classname="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should create choices from apps with corresponding script data" name="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should create choices from apps with corresponding script data" time="0.001">
+    </testcase>
+    <testcase classname="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should return empty array it there are no apps with corresponding script in package.json" name="getChoices - function to create array of objects in form { title: app.name, value: app.name } from apps who contains corresponding npm script in theirs package.json files should return empty array it there are no apps with corresponding script in package.json" time="0.001">
+    </testcase>
+    <testcase classname="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should read package.json file of application" name="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should read package.json file of application" time="0">
+    </testcase>
+    <testcase classname="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should return true if app has corresponding script" name="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should return true if app has corresponding script" time="0.001">
+    </testcase>
+    <testcase classname="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should return false if app doesn&apos;t have corresponding script" name="hasScriptToRun - check that script name is in &quot;scripts&quot; section of package.json file of app should return false if app doesn&apos;t have corresponding script" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="chooseAppsToRun - ask prompt to choose that apps should start" errors="0" failures="0" skipped="0" timestamp="2021-04-20T10:29:59" time="2.38" tests="2">
+    <testcase classname="chooseAppsToRun - ask prompt to choose that apps should start should ask to choose apps to run if arguments are correct" name="chooseAppsToRun - ask prompt to choose that apps should start should ask to choose apps to run if arguments are correct" time="0.647">
+    </testcase>
+    <testcase classname="chooseAppsToRun - ask prompt to choose that apps should start should exit with code 1 if first args in not &quot;lerna run&quot;" name="chooseAppsToRun - ask prompt to choose that apps should start should exit with code 1 if first args in not &quot;lerna run&quot;" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

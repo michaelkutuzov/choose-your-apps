@@ -1,0 +1,8 @@
+{
+  "name": "choose-your-apps",
+  "version": "1.0.0",
+  "description": "Package that allows you choose what apps from your monorepo should particular npm script run",
+  "main": "index.js",
+  "author": "Michael Kutuzov <kutuzovmm@gmail.com>",
+  "license": "MIT"
+}
